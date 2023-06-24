@@ -30,7 +30,7 @@ h1{text-align: center;}
 }
 #text1, #text2, #text3 {clear: right}
 #box1, #box2, #box3{
-    border: 1px solid black; width: 80px; margin: 0;
+    border: 1px solid black; width: 80px; margin-bottom: 5px;
 }
 #box1{background-color: seagreen; text-align: center;float: right}
 #box2{background-color: maroon;text-align: center; float: right}

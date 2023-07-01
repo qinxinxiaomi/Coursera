@@ -1,1 +1,42 @@
+#header-nav{
+    background-color: grey;
+    height:130px;
+    border-radius: 3px;
+    border: 0px;
+    width: 100%;
+}
+.navbar{width:100%; justify-content:unset;}
+.navbar-brand {
+    float:left;
+    padding-top: 20px;
+    margin-left: 0;
+    text-decoration: None;
+    white-space: normal;
+  }
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-decoration: None;
+}
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;}
+.navbar-toggler-icon {float: right;}
+.nav-item a {display:none}
+#navbarTogglerDemo02 a {display:block; color: black; text-align: center;}
+#navbarTogglerDemo02 a:hover {color:#222}
 
+#box1, #box2, #box3 {
+    position: relative; 
+    float: left; 
+    margin:20px 1% 20px 1%;
+    box-sizing: border-box;
+    background-color: grey;
+    border:2px solid grey;
+    text-align: center;
+}
